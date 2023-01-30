@@ -21,7 +21,7 @@
 title: Forum Open
 email: info@okfn.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Das Forum Open eine eine Veranstaltungsreiche, die Expert*innen offener Bildung sowie offener Technologien mit politischen Entscheidungstragenden zusammenbringt
+  Das Forum Open ist eine Veranstaltungsreihe, die Expert*innen offener Bildung sowie offener Technologien mit politischen Entscheidungstragenden zusammenbringt
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: okfde
@@ -40,8 +40,8 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 sass:
-  sass_dir:          assets/_scss
-  #style:            :compressed
+  sass_dir: assets/_scss
+  #style:   :compressed
 
 exclude:
   - Gemfile
