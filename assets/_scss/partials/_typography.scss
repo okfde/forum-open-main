@@ -1,0 +1,216 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Typography
+
+Need to import a font or set of icons for your site? Drop them in
+here or just use this to establish your typographical grid. Or not.
+Do whatever you want to...GOSH!
+
+******************************************************************/
+@font-face {
+      font-family: 'lackregular';
+      src: url($baseurl + '/assets/fonts/Lack-Regular.eot');
+      src: url($baseurl + '/assets/fonts/Lack-Regular.eot#iefix') format('embedded-opentype'),
+           url($baseurl + '/assets/fonts/Lack-Regular.woff') format('woff'),
+           url($baseurl + '/assets/fonts/Lack-Regular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url($baseurl + '/assets/fonts/fontello.eot?59799402');
+      src: url($baseurl + '/assets/fonts/fontello.eot?59799402#iefix') format('embedded-opentype'),
+           url($baseurl + '/assets/fonts/fontello.woff?59799402') format('woff'),
+           url($baseurl + '/assets/fonts/fontello.ttf?59799402') format('truetype'),
+           url($baseurl + '/assets/fonts/fontello.svg?59799402#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url($baseurl + '/assets/fonts/Karla-Regular.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url($baseurl + '/assets/fonts/Karla-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url($baseurl + '/assets/fonts/Karla-Bold.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url($baseurl + '/assets/fonts/Karla-Bold.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Regular.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Italic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Medium.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-MediumItalic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-SemiBold.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-SemiBoldItalic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Bold.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-BoldItalic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-ExtraBold.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-ExtraBoldItalic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Black.woff2?v={{font_v}}") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-BlackItalic.woff2?v={{font_v}}") format("woff2");
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url($baseurl + '/assets/fonts/WorkSans-Regular.eot');
+  src: url($baseurl + '/assets/fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url($baseurl + '/assets/fonts/WorkSans-Regular.woff') format('woff'),
+  url($baseurl + '/assets/fonts/WorkSans-Regular.ttf') format('truetype'),
+  url($baseurl + '/assets/fonts/WorkSans-Regular.svg#WorkSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'liberation_monoregular';
+  src: url($baseurl + '/assets/fonts/LiberationMono-Regular-webfont.eot');
+  src: url($baseurl + '/assets/fonts/LiberationMono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url($baseurl + '/assets/fonts/LiberationMono-Regular-webfont.woff') format('woff'),
+  url($baseurl + '/assets/fonts/LiberationMono-Regular-webfont.ttf') format('truetype'),
+  url($baseurl + '/assets/fonts/LiberationMono-Regular-webfont.svg#liberation_monoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*
+The following is based of Typebase:
+https://github.com/devinhunt/typebase.css
+I've edited it a bit, but it's a nice starting point.
+*/
+
+$font-lack:    'lackregular', sans-serif;
+$font-karla:    'Karla', sans-serif;
+$font-worksans:    'Work Sans', sans-serif;
+$font-mono:    'liberation_monoregular', sans-serif;
+$font-inter: 'Inter', sans-serif;
+
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+  -ms-word-wrap: break-word;
+  word-break: break-word; //non-standart css for webkit
+  word-wrap: break-word;
+  // cleaning up the ragged lines and breaks
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+  // sets a minimum number of characters before and after the break
+  -webkit-hyphenate-before: 2;
+   -webkit-hyphenate-after: 3;
+           hyphenate-lines: 3;
+  // enabling fancy ligatures when available
+  -webkit-font-feature-settings: "liga", "dlig";
+   -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+       -o-font-feature-settings: "liga", "dlig";
+          font-feature-settings: "liga", "dlig";
+}
+

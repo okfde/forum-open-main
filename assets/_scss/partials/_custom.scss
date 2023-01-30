@@ -1,0 +1,116 @@
+
+/******************************************************************
+Customizations for startpage
+******************************************************************/
+
+.main-subtitle {
+  padding-top: 0.5em;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.main-subline {
+  color: $black;
+  font-size: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+
+
+}
+
+.subpage-content-main p {
+  line-height: 1.6em;
+  text-align: center;
+
+}
+
+
+
+ul li {
+  padding-left: 0.5em;
+  text-indent: -0.5em;
+}
+
+/*********************
+Forum Open - Logos
+*********************/
+
+.logos{
+   //display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 10px;
+   padding-top: 30px;
+
+   .logo {
+       a {
+         display: block;
+         height: 100%;
+       }
+
+       padding-top: 0px;
+       margin-bottom: 10px;
+       @media only screen and (min-width: 768px) and (max-width: 1024px) {
+         max-height: 150px;
+         min-height: 150px;
+       }
+       @media only screen and (min-width: 375px) and (max-width: 768px) {
+         max-height: 100px;
+         min-height: 100px;
+       }
+       align-items: center;
+       justify-content: center;
+       padding-bottom: 10px;
+       padding-top: 30px;
+
+       img {
+         &.logo-1 {
+           max-width: 80%;
+            @media only screen and (min-width: 375px) and (max-width: 1024px) {
+                max-width: 70%;
+            }
+            }
+
+         &.logo-2 {
+           max-width: 80%;
+            @media only screen and (min-width: 375px) and (max-width: 1024px) {
+                max-width: 70%;
+            }
+            }
+
+         &.logo-3 {
+           max-width: 50%;
+            @media only screen and (min-width: 375px) and (max-width: 1024px) {
+                max-width: 40%;
+            }
+         }
+         &.logo-4 {
+            max-width: 80%;
+            @media only screen and (min-width: 375px) and (max-width: 1024px) {
+              max-width: 80%;
+            }
+         }
+         &.logo-5 {
+            max-width: 85%;
+            @media only screen and (min-width: 375px) and (max-width: 1024px) {
+              max-width: 50%;
+              margin-top: 0;
+            }
+         }
+        max-width: 80%;
+       }
+   }
+ }
+
+
+
+   .page-wrap ul li::before {
+    margin-right: 5px;
+    content: "\2022";
+    color: #fff;
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6em;
+    line-height: 1;
+    left: 0;
+}
